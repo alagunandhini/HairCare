@@ -56,4 +56,50 @@ overflow: hidden;
   text-decoration: none;
   list-style: none;
 }
+.shinyy-card{
+  transition: transform 0.3s ease,box-shadow 0.3s ease ;
+  text-align: center;
+  border-radius: 10px;
+}
+.shinyy-card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 15px  rgba(0, 0, 0, 0.15);
+}
+.blog-card{
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  
+}
+.blog-card:hover{
+  transform: translateY(-7px);
+
+}
+.slideUp{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 16px;
+  text-align: center;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 0.4s ease-in-out,opacity 0.4s ease-in-out ;
+
+}
+.blog-card:hover .slideUp ,.blog-card:active .slideUp{
+transform: translateY(0px);
+opacity: 1;
+
+}
+.read-more{
+  color: aliceblue;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
 
