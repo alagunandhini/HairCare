@@ -152,6 +152,7 @@ function login(){
     }
     else{
         error.textContent="Invalid Username or Password"
+        return;
     }
   
    
@@ -169,6 +170,7 @@ function showNotification(msg){
         },4000)
       
     },1000)
+    clearField();
   
    
    

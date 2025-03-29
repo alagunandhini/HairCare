@@ -8,6 +8,7 @@
 <!-- Font Awesome for Icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="login.css">
 <script src="cartReuse.js" defer></script>
 
 
@@ -76,16 +77,16 @@
 </header>
 <div class="notification " id="notification"></div>
 <div class="overlay" id="overlay">
+  <div class="fullContainer d-flex justify-content-center align-items-center m-5">
   <!-- login form  -->
-  <div id="login-container" class="">
-
-  <div class="card-body">
+<div id="login-container" class="">
+ <div class="card-body ">
     <button class="close-btn" onclick="closeLogin()">&times;</button>
     <!-- cotainer for sign up -->
   
-      <div class="container p-0 d-flex flex-column justify-content-center align-items-center" >
+      <div class="container p-5 d-flex flex-column justify-content-center align-items-center" >
       <!-- tiltle -->
-      <div class="row text-center" ><h3 class="card-title fs-5 m-0"id="signupTitle" style="display: none;"> Create an account </h3></div>
+      <div class="row text-center" ><h2 class="card-title fs-5 m-0"id="signupTitle" style="display: none;"> Create an account </h2></div>
   
       <!-- sign up form -->
        <div class="row  m-2 mt-4 w-100 d-flex justify-content-center" >
@@ -103,11 +104,11 @@
    
    <!-- container for login  -->
      <div class="container  p-0 d-flex flex-column justify-content-center align-items-center"  > 
-      <div class="row text-center" ><h3 class="card-title fs-2 mt-1"id="loginTitle" style="display: none;"> Welcome Back! </h3></div>
+      <div class="row text-center" ><h3 class="card-title fs-2 mt-1"id="loginTitle" style="display: none; color:  rgb(192, 223, 54);"> Welcome! </h3></div>
     
-      <div class="row   mt-0 w-100 d-flex justify-content-center">
+      <div class="row   m-2 mt-4  w-100 d-flex justify-content-center">
         <div class="col-12 col-sm-10 col-md-8 col-lg-8 " id="sign-in" style="display: none;">
-          <div class="row text-center mb-3 " ><h5 class="card-title fs-6">Login Into Your Account </h5></div>
+          <div class="row text-center mb-3 " ><h5 class="card-title fs-6 fw-normal">Login Into Your Account </h5></div>
         <input type="email" class="input1 w-100 w-sm-75 w-md-50 w-lg-50 mb-3 ps-4 "  placeholder="Email Id" id="loginEmail">
         <input type="password" class="input1 w-100 w-sm-75 w-md-50 w-lg-50 mb-3 ps-4 pe-2"  placeholder=" Password" id="loginPassword">
         <p id="loginError" class="error"></p>
@@ -124,6 +125,7 @@
   </div>
   </div>
   </div>
+</div>
 </div>
 </div>
 

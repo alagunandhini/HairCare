@@ -1,4 +1,62 @@
-.login-container{
-    border-radius: 8px;
+
+/* Centering the Login Form */
+#login-container {
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ width: 90%;
+ max-width: 700px;
+
+ box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+ border-radius: 12px;
+
+  }
+  .input1{
+  
+    /* max-width: 100px; */
+    height: 40px;
+    background-color: rgba(227, 223, 227, 0.396);
+    border: none;
+    border-radius: 4px;
+    outline: none;
     
+    }
+    .sign{
+        color: white;
+        padding: 7px;
+        text-align: center;
+        font-weight: bold;
+        height: 40px;
+        background-color:  rgb(192, 223, 54);
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        
+        }
+        /* @media (max-width: 768px) {
+            #login-container {
+              width: 95%;
+              max-width: 100%;
+              padding: 25px;
+            }
+          }
+        */
+  .close-btn{
+    position: absolute;
+    right: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+padding: 18px 18x;
+border: none;
+background-color:  rgb(192, 223, 54);
+color: white;
+  }
+
+  .error{
+    color: rgba(251, 14, 14, 0.607);
+    font-size: 13px;
+    text-align: center;
 }
+  
