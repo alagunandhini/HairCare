@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="login.css">
 <script src="login.js" defer></script>
+<script src="productStore.js" defer></script>
 
 
     <title>Hair care</title>
@@ -54,7 +55,7 @@
           <a class="nav-link active" aria-current="page" href="oil.html">Oil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Contact</a>
+          <a class="nav-link active" aria-current="page" href="#footer">Contact</a>
         </li>
      </ul>
       <!-- search button -->
@@ -66,7 +67,7 @@
         </form>
         <!-- login wishlist,cart -->
  <div class="d-flex align-items-center mt-2 mt-lg-0 ">
-  <a href="#" class="text-dark me-3 fs-5"><i class="fas fa-heart"></i></a>
+  <!-- <a href="#" class="text-dark me-3 fs-5"><i class="fas fa-heart"></i></a> -->
   <a href="cart.html" class="text-dark me-3 fs-5"><i class="fas fa-shopping-cart"></i></a>
   <a href="#" class="text-dark me-3 fs-5"><i class="fas fa-user"  id="cart-icon"></i></a>
  </div>
@@ -158,7 +159,7 @@
     
               <!-- button :add cart ,heart icon -->
               <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="50" data-name="Minamalist Serum" data-price="₹399" data-img="s6.jpeg" data-quantity="1">Add Cart</a>
               </div>
            
             </div>
@@ -185,7 +186,7 @@
     
               <!-- button :add cart ,heart icon -->
               <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="51" data-name="Hair Growth serum" data-price="₹199" data-img="s5.jpeg" data-quantity="1">Add Cart</a>
               </div>
             </div>
           </div>
@@ -211,7 +212,7 @@
     
               <!-- button :add cart ,heart icon -->
               <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="52" data-name="Pilgrim Serum" data-price="₹199" data-img="s3.jpeg" data-quantity="1">Add Cart</a>
               </div>
             </div>
           </div>
@@ -237,7 +238,7 @@
     
               <!-- button :add cart ,heart icon -->
               <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="53" data-name="Wishcare Serum" data-price="₹329" data-img="s4.jpeg" data-quantity="1">Add Cart</a>
               </div>
            
               </div>
@@ -275,7 +276,7 @@
       
                 <!-- button :add cart ,heart icon -->
                 <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                  <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                  <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="54" data-name="Coconut Serum" data-price="₹399" data-img="s18.jpeg" data-quantity="1">Add Cart</a>
                 </div>
              
               </div>
@@ -302,7 +303,7 @@
       
                 <!-- button :add cart ,heart icon -->
                 <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                  <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                  <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="55" data-name="Mayi serum" data-price="₹299" data-img="s15.jpeg" data-quantity="1">Add Cart</a>
                 </div>
               </div>
             </div>
@@ -328,7 +329,7 @@
       
                 <!-- button :add cart ,heart icon -->
                 <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                  <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                  <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="56" data-name="Virtue Serum" data-price="₹99" data-img="s8.jpeg" data-quantity="1">Add Cart</a>
                 </div>
               </div>
             </div>
@@ -354,7 +355,7 @@
       
                 <!-- button :add cart ,heart icon -->
                 <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                  <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                  <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="57" data-name="Shinyy Serum" data-price="₹259" data-img="s16.jpeg" data-quantity="1">Add Cart</a>
                 </div>
       
               </div>
@@ -392,7 +393,7 @@
       
                 <!-- button :add cart ,heart icon -->
                 <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                  <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                  <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="58" data-name="Camilleo Serum" data-price="₹199" data-img="s9.jpeg" data-quantity="1">Add Cart</a>
                 </div>
              
               </div>
@@ -419,7 +420,7 @@
       
                 <!-- button :add cart ,heart icon -->
                 <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                  <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                  <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="59" data-name="Innisfree serum" data-price="₹349" data-img="s12.jpeg" data-quantity="1">Add Cart</a>
                 </div>
               </div>
             </div>
@@ -445,7 +446,7 @@
 
           <!-- button :add cart ,heart icon -->
           <div class="d-flex justify-content-center align-items-center w-100 p-3">
-            <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+            <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="60" data-name="Jasmine Serum" data-price="₹299" data-img="Products.jpg" data-quantity="1">Add Cart</a>
           </div>
        
           </div>
@@ -455,11 +456,11 @@
 <div class="col">
   <div class="card">
     <div class="image-container">
-      <img src="./Be Gentle, Be Kind Aloe + Oat Milk Ultra Soothing Fragrance-Free Detangler - Briogeo _ Sephora.jpg" class="card-img-top product-img" alt="...">
+      <img src="oil20.jpg" class="card-img-top product-img" alt="...">
     </div>
     
     <div class="card-body d-flex flex-column justify-content-center align-items-center">
-      <h5 class="card-title">Briogeo Serum spray</h5>
+      <h5 class="card-title">Briogeo Serum</h5>
       <p class="card-text">Promote Hair growth!</p>
       <!-- price tag -->
       <div class="">
@@ -472,7 +473,7 @@
 
       <!-- button :add cart ,heart icon -->
       <div class="d-flex justify-content-center align-items-center w-100 p-3">
-        <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+        <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="61" data-name="Briogeo Serum" data-price="₹199" data-img="oil20.jpg" data-quantity="1">Add Cart</a>
       </div>
    
           </div>
@@ -484,7 +485,7 @@
 </section>
 
  <!-- footer -->
- <footer class="bg-light mt-5 py-4 text-da">
+ <footer class="bg-light mt-5 py-4 text-da"  id="footer">
     <div class="container">
      <!-- brand name -->
      <div class="d-flex align-items-center mb-4">
@@ -493,7 +494,7 @@
     </div>
      
      
-     <div class="row m-2 text-center text-md-start">
+     <div class="row m-2 text-center text-md-start"  id="footer">
        <!-- column 1 -->
        <div class="col-md-4 mb-2">
          

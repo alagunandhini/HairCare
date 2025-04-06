@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="login.css">
 <script src="login.js" defer></script>
+<script src="productStore.js" defer></script>
 
 
     <title>Hair care</title>
@@ -55,7 +56,7 @@
           <a class="nav-link active" aria-current="page" href="oil.html">Oil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Contact</a>
+          <a class="nav-link active" aria-current="page" href="#footer">Contact</a>
         </li>
      </ul>
       <!-- search button -->
@@ -67,7 +68,7 @@
         </form>
         <!-- login wishlist,cart -->
  <div class="d-flex align-items-center mt-2 mt-lg-0 ">
-  <a href="#" class="text-dark me-3 fs-5"><i class="fas fa-heart"></i></a>
+  <!-- <a href="#" class="text-dark me-3 fs-5"><i class="fas fa-heart"></i></a> -->
   <a href="cart.html" class="text-dark me-3 fs-5"><i class="fas fa-shopping-cart"></i></a>
   <a href="#" class="text-dark me-3 fs-5"  id="cart-icon"><i class="fas fa-user"></i></a>
  </div>
@@ -146,7 +147,7 @@
             </div>
            
             <div class="card-body d-flex flex-column justify-content-center align-items-center">
-              <h5 class="card-title">N</h5>
+              <h5 class="card-title">Amla Conditioner</h5>
               <p class="card-text">silky! shine For Your Hair!</p>
               <!-- price tag -->
               <div class="">
@@ -159,7 +160,7 @@
     
               <!-- button :add cart ,heart icon -->
               <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                <a href="#" class="btn btn-dark w-100 add-to-cart"  data-id="31" data-name="amla Conditioner" data-price="₹199" data-img="c1.jpeg" data-quantity="1" >Add Cart</a>
               </div>
            
             </div>
@@ -173,7 +174,7 @@
             </div>
             
             <div class="card-body d-flex flex-column justify-content-center align-items-center">
-              <h5 class="card-title ">Anti-dandruff Shampoo</h5>
+              <h5 class="card-title ">Argan Conditioner</h5>
               <p class="card-text">Reduce Dandruff & Ithchness!</p>
               <!-- price tag -->
               <div class="">
@@ -186,7 +187,7 @@
     
               <!-- button :add cart ,heart icon -->
               <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="30" data-name="Argan Conditioner" data-price="₹149" data-img="c2.jpeg" data-quantity="1" >Add Cart</a>
               </div>
             </div>
           </div>
@@ -199,7 +200,7 @@
             </div>
     
             <div class="card-body d-flex flex-column justify-content-center align-items-center">
-              <h5 class="card-title"> Dove Shampoo</h5>
+              <h5 class="card-title">Green Conditioner</h5>
               <p class="card-text">Control Frizz & Damages!</p>
               <!-- price tag -->
               <div class="">
@@ -212,7 +213,7 @@
     
               <!-- button :add cart ,heart icon -->
               <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="29" data-name="Green Conditioner" data-price="₹299" data-img="c1.jpeg" data-quantity="1" >Add Cart</a>
               </div>
             </div>
           </div>
@@ -222,7 +223,7 @@
 <div class="col">
   <div class="card">
     <div class="image-container">
-      <img src="./The Honest Company _ Target.jpg" class="card-img-top product-img" alt="...">
+      <img src="./Honest.jpg" class="card-img-top product-img" alt="...">
     </div>
    
     <div class="card-body d-flex flex-column justify-content-center align-items-center">
@@ -239,7 +240,7 @@
 
       <!-- button :add cart ,heart icon -->
       <div class="d-flex justify-content-center align-items-center w-100 p-3">
-        <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+        <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="28" data-name="Honest Conditioner" data-price="₹299" data-img="./Honest.jpg" data-quantity="1" >Add Cart</a>
       </div>
    
           </div>
@@ -263,20 +264,20 @@
               </div>
              
               <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                <h5 class="card-title">BhringaAmla Shampoo</h5>
-                <p class="card-text">Reduce Hair dryness!</p>
+                <h5 class="card-title">Palmolive Conditioner</h5>
+                <p class="card-text">reduce danruff &frizz!</p>
                 <!-- price tag -->
                 <div class="">
-                  <span class="fs-bold me-1">₹349</span>
+                  <span class="fs-bold me-1">₹399</span>
                   <span class="text-muted text-decoration-line-through me-1">₹499</span>
-                  <span class="fw-bold">10% OFF</span>
+                  <span class="fw-bold">20% OFF</span>
                 </div>
                 <!-- ratings -->
                 <span class="text-center mb-2">⭐⭐⭐⭐☆</span>
       
                 <!-- button :add cart ,heart icon -->
                 <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                  <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                  <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="27" data-name="Palmolive conditioner" data-price="₹399" data-img="./shampoo1.jpeg" data-quantity="1">Add Cart</a>
                 </div>
              
               </div>
@@ -290,20 +291,20 @@
               </div>
               
               <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                <h5 class="card-title ">BhringaAmla Shampoo</h5>
-                <p class="card-text">reduce Dandruff & Hair frizz!</p>
+                <h5 class="card-title ">AloeVera Conditioner</h5>
+                <p class="card-text">dandruff Free & dry!</p>
                 <!-- price tag -->
                 <div class="">
-                  <span class="fs-bold me-1">₹299</span>
-                  <span class="text-muted text-decoration-line-through me-1">₹399</span>
-                  <span class="fw-bold">26% OFF</span>
+                  <span class="fs-bold me-1">₹199</span>
+                  <span class="text-muted text-decoration-line-through me-1">₹499</span>
+                  <span class="fw-bold">10% OFF</span>
                 </div>
                 <!-- ratings -->
                 <span class="text-center mb-2">⭐⭐⭐⭐☆</span>
       
                 <!-- button :add cart ,heart icon -->
                 <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                  <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                  <a href="#" class="btn btn-dark w-100 add-to-cart"  data-id="26" data-name="AloeVera Conditioner" data-price="₹199" data-img="./shampoo5.jpeg" data-quantity="1">Add Cart</a>
                 </div>
               </div>
             </div>
@@ -316,20 +317,20 @@
               </div>
       
               <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                <h5 class="card-title">BhringaAmla Shampoo</h5>
-                <p class="card-text">Healthy For Your Hair!</p>
+                <h5 class="card-title">Meclay Conditioner</h5>
+                <p class="card-text">silky! shine For Your Hair!</p>
                 <!-- price tag -->
                 <div class="">
-                  <span class="fs-bold me-1">₹199</span>
-                  <span class="text-muted text-decoration-line-through me-1">₹249</span>
-                  <span class="fw-bold">10% OFF</span>
+                  <span class="fs-bold me-1">₹299</span>
+                  <span class="text-muted text-decoration-line-through me-1">₹599</span>
+                  <span class="fw-bold">22% OFF</span>
                 </div>
                 <!-- ratings -->
                 <span class="text-center mb-2">⭐⭐⭐⭐☆</span>
       
                 <!-- button :add cart ,heart icon -->
                 <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                  <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                  <a href="#" class="btn btn-dark w-100 add-to-cart"  data-id="25" data-name="Meclay Conditioner" data-price="₹299" data-img="./shampoo7.jpeg" data-quantity="1">Add Cart</a>
                 </div>
               </div>
             </div>
@@ -342,20 +343,20 @@
               </div>
       
               <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                <h5 class="card-title">BhringaAmla Shampoo</h5>
-                <p class="card-text">reduce The dryness!</p>
+                <h5 class="card-title">Proteinmilk Conditioner</h5>
+                <p class="card-text">silky Hair and shine!</p>
                 <!-- price tag -->
                 <div class="">
-                  <span class="fs-bold me-1">₹399</span>
+                  <span class="fs-bold me-1">₹359</span>
                   <span class="text-muted text-decoration-line-through me-1">₹499</span>
-                  <span class="fw-bold">20% OFF</span>
+                  <span class="fw-bold">15% OFF</span>
                 </div>
                 <!-- ratings -->
                 <span class="text-center mb-2">⭐⭐⭐⭐☆</span>
       
                 <!-- button :add cart ,heart icon -->
                 <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                  <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                  <a href="#" class="btn btn-dark w-100 add-to-cart"  data-id="24" data-name="PoteinMilk Conditioner" data-price="₹359" data-img="./shampoo6.jpeg" data-quantity="1" >Add Cart</a>
                 </div>
       
               </div>
@@ -367,7 +368,7 @@
 
     <!-- section-3-->
 
-      <div class="container mt-4">
+    <div class="container mt-4">
    
 
       <div class="row g-3 row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-4 d-flex  justify-content-between">
@@ -380,20 +381,20 @@
               </div>
              
               <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                <h5 class="card-title">BhringaAmla Shampoo</h5>
+                <h5 class="card-title">Honey Conditioner</h5>
                 <p class="card-text">silky! shine For Your Hair!</p>
                 <!-- price tag -->
                 <div class="">
-                  <span class="fs-bold me-1">₹369</span>
-                  <span class="text-muted text-decoration-line-through me-1">₹599</span>
-                  <span class="fw-bold">23% OFF</span>
+                  <span class="fs-bold me-1">₹299</span>
+                  <span class="text-muted text-decoration-line-through me-1">₹499</span>
+                  <span class="fw-bold">10% OFF</span>
                 </div>
                 <!-- ratings -->
                 <span class="text-center mb-2">⭐⭐⭐⭐☆</span>
       
                 <!-- button :add cart ,heart icon -->
                 <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                  <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                  <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="20" data-name="Honey Conditioner" data-price="₹299" data-img="./shampoo1.jpeg" data-quantity="1">Add Cart</a>
                 </div>
              
               </div>
@@ -407,12 +408,12 @@
               </div>
               
               <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                <h5 class="card-title ">BhringaAmla Shampoo</h5>
-                <p class="card-text">Clean your scalp!</p>
+                <h5 class="card-title ">Applecider Conditioner</h5>
+                <p class="card-text"> Shine For Your Hair!</p>
                 <!-- price tag -->
                 <div class="">
-                  <span class="fs-bold me-1">₹269</span>
-                  <span class="text-muted text-decoration-line-through me-1">₹399</span>
+                  <span class="fs-bold me-1">₹399</span>
+                  <span class="text-muted text-decoration-line-through me-1">₹499</span>
                   <span class="fw-bold">20% OFF</span>
                 </div>
                 <!-- ratings -->
@@ -420,7 +421,7 @@
       
                 <!-- button :add cart ,heart icon -->
                 <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                  <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                  <a href="#" class="btn btn-dark w-100 add-to-cart " data-id="21" data-name="Applecider Conditioner" data-price="₹399" data-img="./shampoo2.jpeg" data-quantity="1">Add Cart</a>
                 </div>
               </div>
             </div>
@@ -433,12 +434,12 @@
               </div>
       
               <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                <h5 class="card-title">BhringaAmla Shampoo</h5>
-                <p class="card-text">silk for Your Hair!</p>
+                <h5 class="card-title">Pantene Conditioner</h5>
+                <p class="card-text">Promote Hair Growth !</p>
                 <!-- price tag -->
                 <div class="">
-                  <span class="fs-bold me-1">₹299</span>
-                  <span class="text-muted text-decoration-line-through me-1">₹599</span>
+                  <span class="fs-bold me-1">₹399</span>
+                  <span class="text-muted text-decoration-line-through me-1">₹499</span>
                   <span class="fw-bold">20% OFF</span>
                 </div>
                 <!-- ratings -->
@@ -446,7 +447,7 @@
       
                 <!-- button :add cart ,heart icon -->
                 <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                  <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                  <a href="#" class="btn btn-dark w-100 add-to-cart "  data-id="22" data-name="Pantene Conditioner" data-price="₹399" data-img="./shampoo3.webp" data-quantity="1">Add Cart</a>
                 </div>
               </div>
             </div>
@@ -459,25 +460,26 @@
               </div>
       
               <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                <h5 class="card-title">BhringaAmla Shampoo</h5>
-                <p class="card-text">Promote Hair Growth!</p>
+                <h5 class="card-title">Hibiscus Conditioner</h5>
+                <p class="card-text">Clean Your Hair!</p>
                 <!-- price tag -->
                 <div class="">
-                  <span class="fs-bold me-1">₹299</span>
+                  <span class="fs-bold me-1">₹399</span>
                   <span class="text-muted text-decoration-line-through me-1">₹499</span>
-                  <span class="fw-bold">10% OFF</span>
+                  <span class="fw-bold">20% OFF</span>
                 </div>
                 <!-- ratings -->
                 <span class="text-center mb-2">⭐⭐⭐⭐☆</span>
       
                 <!-- button :add cart ,heart icon -->
                 <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                  <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                  <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="23" data-name="Hibiscus Conditioner" data-price="₹399" data-img="shampoo4.jpg" data-quantity="1" >Add Cart</a>
                 </div>
       
               </div>
             </div>
           </div>
+        
         
         </div>
       </div>
@@ -492,7 +494,7 @@
 
 
  <!-- footer -->
- <footer class="bg-light mt-5 py-4 text-da">
+ <footer class="bg-light mt-5 py-4 text-da"  id="footer">
     <div class="container">
      <!-- brand name -->
      <div class="d-flex align-items-center mb-4">

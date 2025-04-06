@@ -192,3 +192,22 @@ function closeLogin(){
      document.getElementById("overlay").style.display = "none";
         loginContainer.style.display="none"
 }
+//loading transition
+document.addEventListener("DOMContentLoaded", () => {
+    const elements = document.querySelectorAll(".scroll-hidden");
+  
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("scroll-show");
+        } else {
+          entry.target.classList.remove("scroll-show"); // remove class when out of view
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+  
+    elements.forEach(el => observer.observe(el));
+  });
+  

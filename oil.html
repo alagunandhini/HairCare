@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="login.css">
 <script src="login.js" defer></script>
+<script src="productStore.js" defer></script>
 
 
     <title>Hair care</title>
@@ -55,7 +56,7 @@
           <a class="nav-link active" aria-current="page" href="oil.html">Oil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Contact</a>
+          <a class="nav-link active" aria-current="page" href="#footer">Contact</a>
         </li>
      </ul>
       <!-- search button -->
@@ -67,7 +68,7 @@
         </form>
         <!-- login wishlist,cart -->
  <div class="d-flex align-items-center mt-2 mt-lg-0 ">
-  <a href="#" class="text-dark me-3 fs-5"><i class="fas fa-heart"></i></a>
+  <!-- <a href="#" class="text-dark me-3 fs-5"><i class="fas fa-heart"></i></a> -->
   <a href="cart.html" class="text-dark me-3 fs-5"><i class="fas fa-shopping-cart"></i></a>
   <a href="#" class="text-dark me-3 fs-5"><i class="fas fa-user"  id="cart-icon"></i></a>
  </div>
@@ -160,7 +161,7 @@
     
               <!-- button :add cart ,heart icon -->
               <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                <a href="#" class="btn btn-dark w-100 add-to-cart"data-id="32" data-name="Onion Hair Oil" data-price="₹399" data-img="oil2.jpeg" data-quantity="1">Add Cart</a>
               </div>
            
             </div>
@@ -187,7 +188,7 @@
     
               <!-- button :add cart ,heart icon -->
               <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="33" data-name="Amla Hair Oil" data-price="₹199" data-img="oil5.jpeg" data-quantity="1">Add Cart</a>
               </div>
             </div>
           </div>
@@ -213,7 +214,7 @@
     
               <!-- button :add cart ,heart icon -->
               <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="34" data-name=" Black seed Oil" data-price="₹199" data-img="oil3.jpeg" data-quantity="1">Add Cart</a>
               </div>
             </div>
           </div>
@@ -239,7 +240,7 @@
     
               <!-- button :add cart ,heart icon -->
               <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="35" data-name="Onion-Coconut Oil" data-price="₹399" data-img="oil4.jpeg" data-quantity="1">Add Cart</a>
               </div>
            
               </div>
@@ -277,7 +278,7 @@
       
                 <!-- button :add cart ,heart icon -->
                 <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                  <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                  <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="36" data-name="Nourishing Oil" data-price="₹299" data-img="oil11.jpg" data-quantity="1">Add Cart</a>
                 </div>
              
               </div>
@@ -304,7 +305,7 @@
       
                 <!-- button :add cart ,heart icon -->
                 <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                  <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                  <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="37" data-name="Parachute Oil" data-price="₹199" data-img="oil10.jpeg" data-quantity="1">Add Cart</a>
                 </div>
               </div>
             </div>
@@ -330,7 +331,7 @@
       
                 <!-- button :add cart ,heart icon -->
                 <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                  <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                  <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="38" data-name="avacoda oil" data-price="₹359" data-img="oil7.jpeg" data-quantity="1">Add Cart</a>
                 </div>
               </div>
             </div>
@@ -356,7 +357,7 @@
       
                 <!-- button :add cart ,heart icon -->
                 <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                  <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                  <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="39" data-name="Mamearth Oil" data-price="₹259" data-img="oil9.jpeg" data-quantity="1">Add Cart</a>
                 </div>
       
               </div>
@@ -377,7 +378,7 @@
          <div class="col">
           <div class="card" >
             <div class="image-container">
-              <img src="./download (18).jpg" class="card-img-top product-img" alt="...">
+              <img src="./oil18.jpg" class="card-img-top product-img" alt="...">
             </div>
     
             <div class="card-body d-flex flex-column justify-content-center align-items-center">
@@ -394,7 +395,7 @@
     
               <!-- button :add cart ,heart icon -->
               <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="40" data-name="Rosemary-Oil" data-price="₹299" data-img="./oil18.jpg" data-quantity="1">Add Cart</a>
               </div>
     
             </div>
@@ -422,7 +423,7 @@
       
                 <!-- button :add cart ,heart icon -->
                 <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                  <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                  <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="41" data-name="Amla Brahmi Oil" data-price="₹99" data-img="oil15.jpeg" data-quantity="1">Add Cart</a>
                 </div>
               </div>
             </div>
@@ -448,7 +449,7 @@
       
                 <!-- button :add cart ,heart icon -->
                 <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                  <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                  <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="42" data-name=" Argan Oil" data-price="₹299" data-img="oil14.jpeg" data-quantity="1">Add Cart</a>
                 </div>
               </div>
             </div>
@@ -474,7 +475,7 @@
       
                 <!-- button :add cart ,heart icon -->
                 <div class="d-flex justify-content-center align-items-center w-100 p-3">
-                  <a href="#" class="btn btn-dark w-100 ">Add Cart</a>
+                  <a href="#" class="btn btn-dark w-100 add-to-cart" data-id="43" data-name="Natural Oil" data-price="₹299" data-img="oil13.jpeg" data-quantity="1">Add Cart</a>
                 </div>
       
               </div>
@@ -487,7 +488,7 @@
 
 
  <!-- footer -->
- <footer class="bg-light mt-5 py-4 text-da">
+ <footer class="bg-light mt-5 py-4 text-da"  id="footer">
     <div class="container">
      <!-- brand name -->
      <div class="d-flex align-items-center mb-4">

@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 
 
 .navbar-nav .nav-link {
@@ -170,4 +173,14 @@ table {
 th,td{
   border: none;
 }
+.scroll-hidden {
+  opacity: 0;
+  transform: translateY(40px); /* Initial downward offset */
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  will-change: opacity, transform;
+}
 
+.scroll-show {
+  opacity: 1;
+  transform: translateY(0);
+}
